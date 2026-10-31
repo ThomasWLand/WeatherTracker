@@ -1,4 +1,4 @@
-const targetUrl = "https://www.7timer.info/bin/api.pl?lon=113.17&lat=23.09&product=civil&output=xml";
+const targetUrl = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Miami,FL/2025-06-01?unitGroup=us&include=days,hours&elements=datetime,tempmax,tempmin,temp,humidity,conditions";
 
 async function getWeatherData()
 {
