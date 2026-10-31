@@ -1,10 +1,9 @@
-const proxyUrl = 'https://corsproxy.io/?';
 const targetUrl = "http://www.7timer.info/bin/api.pl?lon=113.17&lat=23.09&product=civil&output=xml";
 
 async function getWeatherData()
 {
     try {
-        const response = await fetch(proxyUrl + encodeURIComponent(targetUrl));
+        const response = await fetch(targetUrl);
 
         if(!response.ok)
         {
