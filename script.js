@@ -1,4 +1,4 @@
-const targetUrl = "http://www.7timer.info/bin/api.pl?lon=113.17&lat=23.09&product=civil&output=xml";
+const targetUrl = "https://www.7timer.info/bin/api.pl?lon=113.17&lat=23.09&product=civil&output=xml";
 
 async function getWeatherData()
 {
